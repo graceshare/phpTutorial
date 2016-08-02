@@ -8,7 +8,7 @@ class A
     }
  }
 $a = new A;
-$a("Hello World");
+$a("Hello World");//输出'HelloWorld'
 
 
 class ActiveRecordBase {

@@ -14,3 +14,5 @@ class LOAD
 spl_autoload_register(array('LOAD', 'loadClass')); 
  
 new ClassA();//实现自动加载，很多框架就用这种方法自动加载类 
+
+spl_autoload_unregister(array('LOAD', 'loadClass'));

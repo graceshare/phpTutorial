@@ -63,4 +63,10 @@ $probj->set_profession('IT SERVICE');
 $probj->set_price(2500);
 $probj->show();
 
+/*输出
+name:fdipzone
+age:29
+profession:IT SERVICE
+price:2500*/
+
 ?>
