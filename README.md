@@ -88,8 +88,8 @@
 [「php化整为零系列」九、Traits](http://www.jianshu.com/p/3a2401bd126f)
 
 #### Phar
->1. 配置php.ini `phar.readonly = Off`
->2. 打包
+>- 配置php.ini `phar.readonly = Off`
+>- 打包
     
 
 ```php
@@ -99,7 +99,7 @@ $phar->compressFiles( Phar::GZ |PHAR::BZ2);//压缩方式
 $phar->setStub( $phar->createDefaultStub(入口文件) );
 ```
 
->3. 加载
+>- 加载
 
 ```php
 require_once 'phar:://包名/文件';
