@@ -6,6 +6,7 @@ require_once "phar://user.phar/user.class.php";//加载压缩包内php文件
 $u=new user();
 $u->set_name("mengguang");
 $u->set_email("mengguang@gmail.com");
+
 $u->introduce();#My name is mengguang and my email address is mengguang@gmail.com.
  
 require_once "phar://user.phar/user.func.php";
